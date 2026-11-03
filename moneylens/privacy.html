@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MoneyLens – Privacy Policy</title><link rel="stylesheet" href="../style.css"></head><body>
+<h1>MoneyLens Privacy Policy</h1>
+<p><em>Effective: 17 October 2026 · App: MoneyLens (Android) · Developer contact: chandrachaan.apps@gmail.com</em></p>
+<p>MoneyLens is an offline-first personal finance app. This policy explains what data the app handles, why, and the controls you have. The same text is shown in the app under Settings → Privacy policy.</p>
+<h2>Summary</h2>
+<p>Your financial data is stored on your phone. Nothing is uploaded unless you turn on cloud backup, and cloud backups are end-to-end encrypted with a passphrase only you know. MoneyLens has no ads, no analytics and no trackers, and does not sell or share personal data.</p>
+<h2>Data stored on your phone</h2>
+<p>Transactions (amount, date, type, category, account, merchant/payee, notes, bank reference number), accounts (name, type, bank, last digits), budgets, recurring payments, savings goals and app settings. These are kept in a private app database that other apps cannot read. Android's automatic cloud backup is disabled for MoneyLens.</p>
+<h2>SMS messages</h2>
+<ul>
+<li><strong>Standard edition:</strong> MoneyLens does not request SMS permission. You choose individual messages to share or paste into the app.</li>
+<li><strong>SMS-enabled edition:</strong> only after you read the in-app disclosure and grant permission. MoneyLens reads your inbox <strong>only when you start a scan</strong>, for the date range you choose — this can include older messages still stored on your phone. It skips messages from phone numbers (personal conversations) and examines only business alerts that mention an amount, turning them into transactions <strong>on your device</strong>. SMS content is <strong>never uploaded, sold or shared, and never included in backups</strong> (local or cloud). The original text is not kept unless you turn on "Keep original SMS text". Messages the app is unsure about wait in an on-device review queue until you accept or discard them. MoneyLens cannot send SMS and does not read SMS in the background.</li>
+</ul>
+<h2>Files</h2>
+<p>When you import a CSV statement or a backup, MoneyLens reads only the file you pick. Exports are created only when you ask, and are handed to the app you choose.</p>
+<h2>Optional cloud backup</h2>
+<p>If you create a cloud backup account:</p>
+<ul>
+<li><strong>Google Firebase Authentication</strong> stores your email address and a password hash (operated by Google).</li>
+<li><strong>Google Cloud Firestore</strong> (region asia-south1, Mumbai) stores your backup. Before upload, your data is compressed and <strong>encrypted on your phone</strong> with AES-256-GCM using a key derived from your passphrase (PBKDF2-SHA256). The server stores only the encrypted data and basic metadata (time, size, format version, a device label). Security rules allow only your account to read or delete your backups.</li>
+<li>MoneyLens keeps your three most recent backups and deletes older ones automatically.</li>
+<li>Without your passphrase, nobody, including the developer, can read the backup.</li>
+</ul>
+<h2>Permissions</h2>
+<p>Internet (optional cloud backup only), biometric (optional app lock), and in the SMS edition, Read SMS (as described above).</p>
+<h2>Your choices and rights</h2>
+<ul>
+<li>Delete all local data: Settings → Privacy → Delete all data on this phone.</li>
+<li>Delete all cloud backups and your cloud account: Backup &amp; export → Cloud backup → Delete cloud data &amp; account.</li>
+<li>Revoke SMS access at any time in Android Settings → Apps → MoneyLens → Permissions.</li>
+<li>Uninstalling the app removes all local data.</li>
+<li>Contact us at chandrachaan.apps@gmail.com for any question or deletion request.</li>
+</ul>
+<h2>Retention</h2>
+<p>Local data stays until you delete it or uninstall the app. Cloud backups beyond the newest three are deleted automatically, and all are deleted when you delete your cloud account.</p>
+<h2>Security</h2>
+<p>Optional biometric/screen-lock app lock, optional screenshot blocking, encrypted backups, HTTPS-only network traffic, and owner-only server rules.</p>
+<h2>Children</h2>
+<p>MoneyLens is not directed at children under 13 and is intended for adults managing their own finances.</p>
+<h2>Changes</h2>
+<p>We will update this page and the in-app copy if our practices change, and update the "Effective" date above.</p>
+</body></html>
